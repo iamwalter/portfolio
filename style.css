@@ -19,7 +19,7 @@ body {
 }
 
 .display-4 {
-    font-family: 'Circular', sans-serif;
+    font-family: 'Circular';
     margin-top: 70px;
 }
 
@@ -40,13 +40,17 @@ body {
     font-style: bold;
     font-size: 41;
     margin-bottom: 60px;
-    
+}
+
+.aboutme .title {
+    font-family: "Circular";
+    font-size: 28px;
+    line-height: 30px;
 }
 
 .aboutme {
-    font-family: "CircularMed", sans-serif;
+    font-family: "Circular";
     font-size: 25px;
-    line-height: 30px;
 }
 
 .projects {
