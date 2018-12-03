@@ -1,8 +1,73 @@
-h1 {
-    font-family: 'Oswald', sans-serif;
+@font-face {
+    font-family: "Circular";
+    src: url(font/CircularStd-Black.otf) format("opentype")
 }
 
-.fys {
-    border-left: 2px solid red;
-    margin-bottom: 2em;
+@font-face {
+    font-family: "Circular";
+    font-weight: bold;
+    src: url(font/CircularStd-Bold.otf) format("opentype")
+}
+
+@font-face {
+    font-family: "CircularMedium";
+    src: url(font/CircularStd-Medium.otf) format("opentype")
+}
+
+body {
+    background: url("img/bg.png")
+}
+
+.display-4 {
+    font-family: 'Circular', sans-serif;
+    margin-top: 70px;
+}
+
+.subtext {
+    font-family: "Circular";
+    
+    margin-top: 50px;
+    color: #A3AAAE;
+}
+
+.heroimage {
+    margin-left: 88px;
+    margin-top: 35px;
+}
+
+.title {
+    font-family: "Circular";
+    font-style: bold;
+    font-size: 41;
+    margin-bottom: 60px;
+    
+}
+
+.aboutme {
+    font-family: "CircularMed", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.projects {
+    font-family: "Circular";
+    font-size: 30px;
+}
+
+.project {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.competencies {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.checked {
+    color: #FC5C65;
 }

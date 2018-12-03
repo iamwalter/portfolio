@@ -17,40 +17,344 @@
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <p class="display-4">Hoi! Mijn naam is Walter en ik studeer Software Engineering.</p>
-
-        </div>
-    </div>
-
     <div class="container">
+
         <div class="row">
-            <div class="col-6">
-                <p class="display-3">
-                    Projecten die ik heb gedaan.
-                </p>
-            </div>
-            <div class="col-6">
-                <img src="img/projector-screen.png">
-            </div>
-        </div>
-    </div>
+            <div class="col-md-6">
+                <div class="display-4">Walter Tesevic.</div>
 
-    <div class="container">
-        <div class="fys">
-            <p class="display-3">
-                Fasten Your Seatbelts
-            </p>
-            <p class="display-4">
-                Applicatie voor verloren baggage inventariseren.
-            </p>
+                <h4 class="subtext">Hoi! Mijn naam is Walter en ik studeer <span style="color: #027BFF">Software Engineering</span> aan de Hogeschool van Amsterdam.</h4>
+            </div>
+            <div class="col-md-6">
+                <img class="heroimage" src="img/kalter.png">
+            </div>
         </div>
-    </div>
+
+        <hr>
+
+        <div class="aboutme">
+            <div class="text-center title">Over mij.</div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/mill.png">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="text-center align-middle">
+                        Ik ben een 20-jarige student die in Amsterdam woont. Ik ben iemand die ervan houdt om een
+                        uitdaging aan te gaan, en die ervan houdt om nieuwe dingen te leren.
+                        Wat mij klaar maakt voor de basisfase is mijn leergierigheid en mijn doorzettingsvermogen.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- PROJECTS -->
+        <div class="projects">
+            <div class="text-center title">Projecten</div>
+
+            <div class="row project" id="fys">
+                <div class="col-md-8">
+                    <img src="img/Corendon_Airlines_logo_logotype.png">
+                </div>
+                <div class="col-md-4">
+                    <div><span class="align-middle">Het regelen en
+                        inventariseren van
+                        verloren baggage voor
+                        Corendon Airlines.</span></div>
+                </div>
+            </div>
+
+            <div class="row project" >
+                <div class="col-md-6">
+                    <div class="text-center align-middle"><span class="align-middle">Een voorraad systeem voor restaurants, en een marktplaats voor leveranciers.</span></div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/foodlocker.png">
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- COMPETENCIES -->
+        <div class="competencies">
+            <div class="text-center title">Competenties en <span style="color: #FC5C65">bewijsstukken</span>.</div>
+
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <!-- CARD ONE -->
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        Professioneel Vakmanschap
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star "></span>
+                                    </div>
+
+                                    <p class="text-center">Ik vind dat ik, wanneer ik een opdracht maak, professioneel te werk ga. Ik
+                                        raffel niet iets af als ik het kan helpen, en vind mijzelf ook te
+                                        perfectionistisch. Dit kan ertoe leiden dat ik te veel tijd verlies aan kleine
+                                        dingen die er niet echt toe doen. Om een voorbeeld te geven: Tijdens het
+                                        project Etine vond ik het storend hoe een knopje eruitzag, wat heeft geleden
+                                        tot een half uur gehannes met dat knopje; terwijl ik beter kon verder werken
+                                        aan dingen die ertoe doen. Wanneer ik iets niet weet vraag ik het aan iemand
+                                        die het wel weet; een docent, een leerling, wie dan ook. Ik durf ook wel te
+                                        zeggen dat ik mijn taken afkrijg als het gaat om een project.
+                                    </p>
+
+                                    <hr>
+
+                                    <p>Bewijzen</p>
+
+                                    <a href="#" class="card-link">Deze website</a>
+                                    <a href="https://18eti09nieuwehorec.mxapps.io/" class="card-link">Mendix Project</a>
+                                    <a href="#fys" class="card-link">Project FYS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CARD TWO -->
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Onderzoekend Vermogen
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star "></span>
+                                    </div>
+
+                                    <p>Bij het vak Research Skills heb ik een verslag moeten schrijven bij een
+                                        onderwerp naar keuze dat met ICT te maken had. Ik had gekozen voor internet
+                                        privacy, omdat het mij interessant leek. Toch had ik wel moeite met bronnen
+                                        erover vinden, omdat het ontzettend abstract was. Na 4 weken had ik nog geen
+                                        concrete hoofdvraag, en ik kon er ook geen bedenken. Na een half-goede
+                                        hoofdvraag ergens vandaan gehaald te hebben, begon ik pas de kern-tekst te
+                                        schrijven. Ik besefte dat het best moeilijk was om verschillende bronnen bij
+                                        elkaar te brengen en daar dan een conclusie of een samenhang uit te trekken. Ik
+                                        heb ontzettend lang onderzocht en geschreven, dat toe leidde dat ik toch een
+                                        goed cijfer voor het vak heb gekregen. Toch geef mijzelf een 2 voor deze
+                                        competentie omdat ik toch vind dat ik het sneller heb kunnen doen, en hier toch
+                                        in wil ontwikkelen. Daarom heb ik ook een PSP-vak gekozen die met schrijven te
+                                        maken heeft, Communicating Like A Pro.
+                                    </p>
+
+                                    <hr>
+
+                                    <p>Bewijzen</p>
+
+                                    <a href="https://www.dropbox.com/s/iaxtpcnoi7z6yfv/Walter_Tesevic_500777672.pdf?dl=0" class="card-link">Research Skills</a>
+                                    <a href="https://docs.google.com/document/d/1r3xon7es3li-TP0LHXmRDaG-OwHhx15u4dq8-zP25QE/edit?usp=sharing" class="card-link">Doelgroepanalyse Foodlocker</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CARD THREE -->
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        Leervermogen
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star "></span>
+                                    </div>
+
+                                    <p>Vorig jaar heb ik bij het project Agile Development, waar ik ingedeeld werd in
+                                        de deelgroep Etine, gebruik moeten maken van SCRUM en Mendix, wat een programma
+                                        was om je te helpen om software te maken zonder code te schrijven. Ik had het
+                                        gevoel dat ik dat programma snel doorhad na er een paar test-applicaties in te
+                                        hebben gemaakt. Ook bij andere vakken had ik het gevoel dat ik de stof goed tot
+                                        me nam. Ik wilde vorig jaar naar de universiteit doe. Daar deed ik
+                                        ontzettend mijn best om wiskunde te halen, die ik daarvoor nodig had. Dit is
+                                        mij niet gelukt maar ik heb wel ontzettend veel wiskunde kennis opgedaan. Op
+                                        school had ik databases 2 niet gehaald. Dit was jammer. Ik had geleerd van mijn
+                                        fouten en bij de herkansing had ik een mooie zeven.
+                                        Daarom geef ik mijzelf een 3.
+                                    </p>
+
+                                    <hr>
+
+                                    <p>Bewijzen</p>
+
+                                    <a href="#" class="card-link">Mendix Geleerd</a>
+                                    <a href="#" class="card-link">Databases 2 Gehaald</a>
+                                    <a href="#" class="card-link">Universiteit (STARR)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExample2">
+                        <!-- CARD FOUR -->
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour"
+                                        aria-expanded="false" aria-controls="collapseFour">
+                                        Communicatief Vermogen
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample2">
+                                <div class="card-body">
+                                    <div class="card-body">
+                                        <div class="rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star "></span>
+                                        </div>
+
+                                        <p>Vorig jaar bij het Project Etine was er een aantal keer een miscommunicatie
+                                            voorgekomen. Ik had niet goed gecommuniceerd wat ik aan het doen was. Zo is
+                                            er bijvoorbeeld een moment geweest dat ik samen met Julian (iemand uit mijn
+                                            groepje) aan dezelfde functionaliteit aan het werken was. Zo was er veel
+                                            tijd verloren. Ook vergeet ik vaak te melden als ik iets later kom.
+                                        </p>
+
+                                        <hr>
+
+                                        <p>Bewijzen</p>
+
+                                        <a href="https://www.dropbox.com/s/t1bshhirxncd0jn/Comm%20skills%20presentatie.pptx?dl=0" class="card-link">Presentatie Communication Skills</a>
+                                        <a href="https://docs.google.com/document/d/1v1YLr6lGFdGob7vjrWsQmwL5ukY9QF0HFfE7jPzSCK4/edit?usp=sharing" class="card-link">One-minute papers beroepsethiek</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CARD FIVE -->
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive"
+                                        aria-expanded="false" aria-controls="collapseFive">
+                                        Beroepsethiek
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample2">
+                                <div class="card-body">
+                                    <div class="card-body">
+                                        <div class="rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star "></span>
+                                        </div>
+
+                                        <p>Vroeger was ik niet heel erg discussief, maar ik merk dat ik steeds vaker in
+                                            discussies mee ga doen. Vooral in de ICT-wereld is er veel discussie over
+                                            de verschillende aspecten van alle ontwikkelingen, als het nou gaat over
+                                            Social Media, Artificial Intelligence of Big Data. Ik vind het leuk om over
+                                            deze onderwerpen te discussiëren en dat zijn wij nu precies aan het doen
+                                            bij het vak ‘Beroepsethiek een Maatschappelijke Oriëntatie'. Ik geef
+                                            mijzelf een 2 hiervoor, omdat ik toch vind dat ik, wanneer ik in discussie
+                                            ga, een veel sterkere mening moet hebben.
+                                        </p>
+
+                                        <hr>
+
+                                        <p>Bewijzen</p>
+
+                                        <a href="https://www.dropbox.com/s/aa16r3x7xx8b2a1/4e%20revolutie%20powerpoint.pptx?dl=0" class="card-link">Presentatie</a>
+                                        <a href="https://www.dropbox.com/s/aql19e4zcsymlaz/reflectieverslag%20walter%20tesevic.docx?dl=0" class="card-link">Reflectie</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- CARD SIX -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            Samenwerken
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample2">
+                                    <div class="card-body">
+                                        <div class="rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star "></span>
+                                        </div>
+
+                                        <p>Ik vind van mijzelf dat ik goed kan samenwerken met andere mensen. Ik denk
+                                            dat ik goed kan luisteren, maar ook zelf standpunten heb die ik kan
+                                            vertellen. Er waren geen problemen met de vorige de vorige 2 projectgroepen
+                                            die ik gehad heb. Soms kon de communicatie beter, maar dat heb ik hierboven
+                                            al beschreven. Ik heb vorig jaar bij FYS gemerkt dat ik teveel werk op
+                                            mijzelf neem, en andere mensen het soms niet gun om hun bijdrage te doen.
+                                            Hier heb ik vorig jaar feedback op gekregen en ga het dit jaar beter
+                                            aanpakken door een taakverdeling te maken en goed te bespreken met mijn
+                                            team wie wat gaat aanpakken. Ook ga ik aan mijn team om feedback vragen na
+                                            elke taak die ik heb gedaan.
+                                        </p>
+
+                                        <hr>
+
+                                        <p>Bewijzen</p>
+
+                                        <a href="https://www.dropbox.com/s/aql19e4zcsymlaz/reflectieverslag%20walter%20tesevic.docx?dl=0" class="card-link">Reflectie FYS</a>
+                                        <a href="https://docs.google.com/document/d/1YGDcTsYzmRHG0_40F8R19vBrsq1R1TlLZPEcn6BSduQ/edit?usp=sharing" class="card-link">Samenwerkingscontract PAD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
