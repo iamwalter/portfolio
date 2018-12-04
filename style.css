@@ -28,7 +28,7 @@ body {
 }
 
 .subtext {
-    font-family: "Lora";
+    font-family: "Circular";
     
     margin-top: 50px;
     color: #A3AAAE;
@@ -47,12 +47,12 @@ body {
 }
 
 .aboutme {
-    font-family: "Lora";
+    font-family: "Circular";
     font-size: 25px;
 }
 
 .projects {
-    font-family: "Lora";
+    font-family: "Circular";
     font-size: 30px;
 }
 
@@ -80,7 +80,7 @@ body {
     text-decoration: none;
 }
 
-a {
+.subtext a {
     color: #FC5C65;
     text-decoration: none;
 }
@@ -138,8 +138,8 @@ footer img {
 }
 
 .questions hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 50%;
 }
 
