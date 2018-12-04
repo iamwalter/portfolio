@@ -20,6 +20,10 @@ body {
 
 .display-4 {
     font-family: 'Circular';
+    
+}
+
+.herotext {
     margin-top: 70px;
 }
 
@@ -40,12 +44,6 @@ body {
     font-style: bold;
     font-size: 41;
     margin-bottom: 60px;
-}
-
-.aboutme .title {
-    font-family: "Circular";
-    font-size: 28px;
-    line-height: 30px;
 }
 
 .aboutme {
@@ -74,4 +72,47 @@ hr {
 
 .checked {
     color: #FC5C65;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+}
+
+footer div {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    color: gray;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.answer {
+    font-family: "Lora";
+}
+
+/* .questions .row {
+    margin-bottom: 50px;
+} */
+
+.questions .display-4 {
+    font-size: 40px;
+}
+
+.questions hr {
+    margin-top: 20px;
+    width: 50%;
+}
+
+hr {
+    width: 95%;
 }
