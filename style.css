@@ -28,7 +28,7 @@ body {
 }
 
 .subtext {
-    font-family: "Circular";
+    font-family: "Lora";
     
     margin-top: 50px;
     color: #A3AAAE;
@@ -47,12 +47,12 @@ body {
 }
 
 .aboutme {
-    font-family: "Circular";
+    font-family: "Lora";
     font-size: 25px;
 }
 
 .projects {
-    font-family: "Circular";
+    font-family: "Lora";
     font-size: 30px;
 }
 
@@ -63,6 +63,35 @@ body {
 
 .competencies {
     margin-bottom: 50px;
+}
+
+.competencies p {
+    font-family: "Lora";
+}
+
+.competencies button {
+    color: black;
+    font-family: "Lora";
+    text-decoration: none;
+}
+
+.competencies button:hover {
+    color: #FC5C65;
+    text-decoration: none;
+}
+
+a {
+    color: #FC5C65;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FC5C65;
+    text-decoration: none;
+}
+
+.competencies a {
+    font-family: "Lora";
 }
 
 hr {
