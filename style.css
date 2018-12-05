@@ -112,8 +112,13 @@ footer {
 footer div {
     color: rgb(206, 206, 206);
     text-decoration: none;
-
 }
+
+.rating {
+    margin-bottom: 25px;
+}
+
+
 
 footer img {
     height: 30px;
