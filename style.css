@@ -103,28 +103,12 @@ hr {
     color: #FC5C65;
 }
 
-footer {
-    display: inline-block;
-    width: 100%;
-    background-color: rgb(19, 19, 19);
-}
 
-footer div {
-    color: rgb(206, 206, 206);
-    text-decoration: none;
-}
 
 .rating {
     margin-bottom: 25px;
 }
 
-
-
-footer img {
-    height: 30px;
-    width: 30px;
-    color: gray;
-}
 
 .container-fluid {
     padding: 0px;
@@ -150,4 +134,18 @@ footer img {
 
 hr {
     width: 95%;
+}
+
+footer div {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: "Circular";
+    font-style: bold;
+    font-size: 41;
+}
+
+footer .fa {
+    margin-left: 50px;
+    color: black; 
+    font-size: 40px;
 }
